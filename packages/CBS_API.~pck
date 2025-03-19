@@ -1,0 +1,44 @@
+create or replace package CBS_API is
+
+  -- Author  : FOZILJON
+  -- Created : 13.02.2025 12:55:16
+  -- Purpose : 
+  
+  -- Public type declarations
+  type <TypeName> is <Datatype>;
+  
+  -- Public constant declarations
+  <ConstantName> constant <Datatype> := <Value>;
+
+  -- Public variable declarations
+  <VariableName> <Datatype>;
+
+  -- Public function and procedure declarations
+  function <FunctionName>(<Parameter> <Datatype>) return <Datatype>;
+
+end CBS_API;
+/
+create or replace package body CBS_API is
+
+  -- Private type declarations
+  type <TypeName> is <Datatype>;
+  
+  -- Private constant declarations
+  <ConstantName> constant <Datatype> := <Value>;
+
+  -- Private variable declarations
+  <VariableName> <Datatype>;
+
+  -- Function and procedure implementations
+  function <FunctionName>(<Parameter> <Datatype>) return <Datatype> is
+    <LocalVariable> <Datatype>;
+  begin
+    <Statement>;
+    return(<Result>);
+  end;
+
+begin
+  -- Initialization
+  <Statement>;
+end CBS_API;
+/
