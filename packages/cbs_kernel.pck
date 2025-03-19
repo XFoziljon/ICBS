@@ -29,8 +29,6 @@ begin
 --                            TRY_COUNT,
 --                            FINISHED_ON,
 --                            EXECUTED_IN,
---                            LANGUAGE,
---                            SESSION_ID,
 --                            TRANSACTION_ID,
 --                            REQ_
 )
