@@ -38,7 +38,7 @@ end;
 procedure chkHelth(iRequestid varchar2, inData clob, outData out clob)
   is
 begin
-  outData := inData||'_1';
+  outData := inData||'_555';
 end;
 end cbs_kernel;
 /
